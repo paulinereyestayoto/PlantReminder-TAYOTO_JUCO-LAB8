@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     public void addReminderTitle(){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Set Reminder Title");
+        builder.setTitle("Set Plant Reminder Title");
 
         final EditText input = new EditText(this);
         input.setInputType(InputType.TYPE_CLASS_TEXT);
@@ -163,9 +163,9 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
 
                 if (newUri == null) {
-                    Toast.makeText(getApplicationContext(), "Setting Reminder Title failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Setting Plant name failed", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(getApplicationContext(), "Title set successfully", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Plant name set successfully", Toast.LENGTH_SHORT).show();
                 }
 
             }

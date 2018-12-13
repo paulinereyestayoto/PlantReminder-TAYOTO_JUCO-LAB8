@@ -5,7 +5,7 @@
     <string name="title_activity_edit_reminder">Edit Plant Reminder</string>
     <string name="title_activity_licenses">Licenses</string>
 
-    <string name="add_reminder">Reminder</string>
+    <string name="add_reminder">Plant Reminder</string>
     <string name="details">Details</string>
     <string name="date">Date</string>
     <string name="time">Time</string>
